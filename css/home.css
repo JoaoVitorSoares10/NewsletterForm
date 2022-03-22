@@ -1,0 +1,41 @@
+h1, #welcomeName {
+    font-weight: bold;
+}
+
+h1{
+    background: -webkit-linear-gradient(#4957FF, #BC2BFE);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+}
+
+#welcomeName {
+    font-size: 60px;
+    color: #BC2BFE;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    color: #999;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+@media (max-width: 700px){
+    h1 {
+        font-size: 60px;
+    }
+
+    #welcomeName {
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+}

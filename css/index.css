@@ -1,0 +1,112 @@
+.content {
+    background-color: #fff;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 100px 50px;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 10px #e6c8f5;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+
+.info img{
+    max-width: 180px; 
+}
+
+#userForm{
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    text-align: center;
+}
+
+#userForm h1 {
+    font-size:36px;
+    margin-bottom: 20px;
+}
+
+.form-item {
+    width: 100%;
+    display: flex;
+    
+    margin-top: 30px;
+}
+
+.label-form{
+    display: flex;
+    align-items: center;
+}
+
+.input-form {
+    width: 100%;
+}
+
+.input-form input{
+    width: 100%;
+    height: 32px;
+    color: #666;
+    margin: 0px 10px;
+    outline: 0;
+    font-size: 16px;
+    padding: 0px  10px;
+    background-color: #eef;
+}
+
+.input-border {
+    border: none;
+    border-bottom: 2px solid #bbb;
+}
+
+.input-error {
+    border: none;
+    border-bottom: 2px solid rgb(246, 100, 100);
+}
+
+.alert-text {
+    color: rgb(246, 100, 100);
+    margin-top: 10px;
+}
+
+.input-form input::placeholder {
+    color: #444;
+    font-size: 16px;
+}
+
+#submitButton {
+    margin-top: 50px;
+    border: none;
+    background-color: #BC29FE;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#submitButton:hover {
+    background-color: #fff;
+    border: 1px solid #BC29FE;
+    color: #444;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+@media (max-width: 700px) {
+    .content {
+        border: none;
+        box-shadow: none;
+    }
+}

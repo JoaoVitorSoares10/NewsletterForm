@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Newsletter Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/global.css'>
+</head>
+<body>
+    <div class="container">
+        <main class="content">
+            <figure class="info">
+                <img src="assets\images\email.png" alt="" />
+            </figure>
+            <form id="userForm" action="home.html">
+                <h1>Conheça nosso Newsletter</h1>
+                <p>Cadastre seu email para receber as melhores informações, atualizações e ofertas diretamente na sua caixa de email</p>
+                <div class="form-item">
+                    <div class="label-form">
+                        <label for="userName">Nome</label>
+                    </div>
+                    <div class="input-form">
+                        <input type="text" class="input-border" id="userName" name="userName" placeholder="Digite seu nome" />
+                    </div>
+                </div>
+                <p id="nameAlert" class="alert-text"></p>
+                <div class="form-item">
+                    <div class="label-form">
+                        <label for="userEmail">Email</label>
+                    </div>
+                    <div class="input-form">
+                        <input type="text" class="input-border" id="userEmail" name="userEmail" placeholder="Digite seu email" />
+                    </div>
+                </div>
+                <p id="emailAlert" class="alert-text"></p>
+                <button id="submitButton" type="submit">Cadastrar</button>
+            </form>
+        </main>
+    </div>
+    <script src='./js/emailValidation.js'></script>
+</body>
+
+</html>
